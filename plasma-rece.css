@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: century gothic;
+}
+header{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image4.jpg);
+	height: 150vh;
+	background-size: cover;
+	background-position: center;
+}
+.cont h1{
+	position: absolute;
+	left: 10%;
+	top: 3%;
+	transform: translate(-50% -50%);
+	font-size: 43px;
+	color: #fff;
+	text-decoration: underline;
+}
+.context{
+	       position: absolute;
+	       top: 20%;
+  			left: 30%;
+  			right: 0;
+  			color: #fff
+  			z-index: 9999;
+  			margin-left: 20px;
+  			margin-right: 20px;
+  		}
