@@ -1,0 +1,3 @@
+create table symptoms( name varchar(100),address varchar(100),contactnumber(100),checkk varchar(100), gender varchar(100), Age number(100), 
+Fever varchar(27),taste varchar(100),smell varchar(100), Tired varchar(100), 
+Throat varchar(100), Ache varchar(100));
