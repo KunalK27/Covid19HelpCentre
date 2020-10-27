@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+  <title>Coronavirus App Example</title>
+  <link href="https://quarantine.country/assets/bootstrap.min.css" rel="stylesheet">
+  <script type="text/javascript" src="live.js"></script>
+</head>
+
+<body>
+  <div class="container mt-4 pt-4">
+    <div class="row">
+      <div class="col-10 offset-1">
+        <div class="card">
+                    <div class="card-header">
+            COVID-19 App Demo
+                    </div>
+                    <div class="card-body">
+                        <h2 class="display-6">Coronavirus Cases in <span data-var-placeholder="country"></span></h2>
+                        <p class="small text-muted">LIVE UPDATE</p>
+                        <div class="data">
+              <!--total cases-->
+              <div class="d-inline qc_data-cases qc_data-cases-all">
+                <button class="btn btn-danger fixwidth">
+                  <strong data-country-placeholder="total_cases">0</strong>
+                </button>
+              </div>
+              <div class="d-inline qc_data-cases qc_data-cases-text pl-1 pl-sm-2">
+                <span class="text-muted small">Confirmed cases in the
+                  <span data-var-placeholder="country">
+                </span>
+              </div>
+              <hr />
+              <!--active-->
+              <div class="d-inline qc_data-cases qc_data-cases-all">
+                <button class="btn btn-warning fixwidth">
+                <strong>
+                  <span data-country-placeholder="active_cases">0</span>
+                </strong>
+                </button>  
+              </div>
+              <div class="d-inline qc_data-cases qc_data-cases-text pl-1 pl-sm-2">
+                <span class="text-muted small">Active cases in the <span data-var-placeholder="country"></span>
+                </span>
+              </div>
+              <hr />
+              <!--recovered-->
+              <div class="d-inline qc_data-cases qc_data-cases-all">
+                <button class="btn btn-success fixwidth">
+                <strong data-country-placeholder="recovered">0</strong>
+                </button>
+              </div>
+              <div class="d-inline qc_data-cases qc_data-cases-text pl-1 pl-sm-2">
+                <span class="text-muted small">Recoveding cases in the 
+                  <span data-var-placeholder="country"></span>
+                </span>
+              </div>
+              <hr />
+              <!--deaths-->
+              <div class="d-inline qc_data-cases qc_data-cases-all">
+                <button class="btn btn-secondary fixwidth">
+                <strong><span data-country-placeholder="deaths">0</span></strong>
+                </button>
+              </div>
+              <div class="d-inline qc_data-cases qc_data-cases-text pl-1 pl-sm-2">
+                <span class="text-muted small">Death cases in the <span data-var-placeholder="country"></span>
+              </div>
+            </div> 
+                    </div>
+                    <div class="card-footer text-muted small">
+            &#9881; Build more with the <a class="text-muted" href="https://github.com/Yatko/Coronavirus-API">Coronavirus API</a>
+                    </div>
+                </div>
+      </div>
+    </div>    
+  </div>
+</body>
+</html>
